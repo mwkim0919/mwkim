@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<title> Minwoo Kim's E-PortFoilo </title>
+	</head>
+
+	<body>
+		<!-- navigation bar at the top -->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a href="#home" class="navbar-brand scroll">Minwoo Kim</a>
+				<!-- adding collapse functionality to the navigation bar -->
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- These are the navigation menu that collapses -->
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right" id="nav-list">
+						<li><a href="#about" class="scroll">ABOUT</a></li>
+						<li><a href="#education" class="scroll">EDUCATION</a></li>
+						<li><a href="#project" class="scroll">PROJECT</a></li>
+						<li><a href="#experience" class="scroll">EXPERIENCE</a></li>
+						<li><a href="#gallery" class="scroll">GALLERY</a></li>
+						<li><a href="#contact" class="scroll">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- This is the text that goes with the image after the navigation bar-->
+		<div id="home">
+			<div class="row">
+				<!-- <div class="col-md-6 col-md-offset-2"> -->
+					<h4>“Be the change that you wish to see in the world.” - Mahatma Gandhi</h4>
+			    <!-- </div> -->
+		    </div>
+		</div>
+
+		<!-- start ABOUT -->
+		<div id="about">
+			<h1>About</h1>
+			<hr></hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<p>I am a student currently pursuing a second Bachelor of Science in Computer Science at <a href="http://www.ubc.ca">University of British Columbia</a> in Vancouver, Canada. My first degree was Chemistry at University of British Columbia as well. I am particularly interested in <a href="http://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>, <a href="http://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a>, and <a href="http://en.wikipedia.org/wiki/Data_mining">Data Mining</a>. I am planning to make use of my education by being a software engineer or a data scientist. I enjoy playing sports, soccer, basketball, baseball, golf, and etc. but if I have to pick only one sport among them, then it would be basketball.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--start EDUCATION --> 
+		<div id="education">
+			<h1>Education</h1>
+			<hr></hr>
+			<div class="container">
+				<div class="row">
+					<center><table class="table-condensed">
+						<th>University of British Columbia</th>
+						<tr>
+							<td>Bachelor of Science in Chemistry</td>
+							<td>2008 - 2013</td>
+						</tr>
+						<tr>
+							<td>Bachelor of Science in Computer Science</td>
+							<td>2013 - Current</td>
+						</tr>
+					</table></center>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<center><img src="css/images/chemistry.jpg" alt="chemistry img" class="img-responsive img-circle" /></center>
+						<h4>Here are the courses I took.</h4>
+						<center><a href="#chemistry" class="btn btn-default" data-toggle="modal">Read More</a></center>
+					</div>
+					<div class="col-md-6">
+						<center><img src="css/images/computer-science.jpg" alt="computer science img" class="img-responsive img-circle" /></center>
+						<h4>Here are the courses I took.</h4>
+						<center><a href="#cs" class="btn btn-default" data-toggle="modal">Read More</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- start PROJECT -->
+		<div id="project">
+			<h1>Project</h1>
+			<hr></hr>
+			<div class="container">
+				<div class="tab-panels">
+					<ul class="tabs">
+						<li><a href="#programming-language">Programming language</a></li>
+						<li><a href="#academic-project">Academic Project</a></li>
+						<li><a href="#personal-project">Personal Project</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tab-content">
+				<div class="tab" id="programming-language">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									JAVA
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									PYTHON
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+									SQL
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									HTML
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									SCHEME
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									C/C++
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									MatLab
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+									PHP
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+									CSS
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+									C#
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+									JAVASCRIPT
+								</div>
+							</div>
+							<p>The bar represents the level of experience with the corresponding programming language.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab" id="academic-project">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									Computer Science Projects
+								</div>
+								<div class="panel-body">
+									<table class="table table-hover">
+										<thead>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Date</th>
+											<th>Link</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>MusicOn - Web App (Python/Django/CSS)</td>
+												<td>
+													<li>Designed the model for the web app so that the user can retrieve information of events, venues, and artists.</li>
+													<li>This project is currently being progressed by a group of 4 people using Agile process.</li>
+												</td>
+												<td>Febuary, 2015 - Present</td>
+												<td><a href="https://github.com/CPSC310-2014W2/SaltandPeppa" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>Music Store Database Design (PHP/SQL/CSS)</td>
+												<td>
+													<li>Designed a database system for customers to make an online order, for clerks to process a return of an item for refund and, for managers to add items to the store, to process the delivery of an order, and to print daily sales report.</li>
+													<li>Worked closely with a group of 3 people for 3 weeks.</li>
+												</td>
+												<td>November, 2014</td>
+												<td><a href="https://github.com/mwkim0919/cs304" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>Simple Web Proxy Filter (C)</td>
+												<td>
+													<li>Implemented a simple proxy server using Socket programming in C.</li>
+													<li>Added the functionality for the proxy server to block sites that appear in a filter file (txt file) that contains host names.</li>
+													<li>Implemented caching functionality for the proxy server to return the cached contents for all subsequent requests.</li>
+												</td>
+												<td>November, 2014</td>
+												<td><a href="https://github.com/mwkim0919/cs317/tree/master/a3-proxy" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>Streaming Video with RTSP and RTP (Java)</td>
+												<td>
+													<li>Implemented the client part of a streaming video server and client using Java's Socket class.</li>
+													<li>Implemented several functionalities such as requesting a video, playing a video, pausing a video, and closing a video.</li>
+													<li>Handled a variety of possible problems a video streaming application might encounter (e.g. packet loss).</li>
+												</td>
+												<td>October, 2014</td>
+												<td><a href="https://github.com/mwkim0919/cs317/tree/master/a2-rtsp" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>Simple FTP Client (Java)</td>
+												<td>
+													<li>Implemented basic functionalities of FTP client using Java's Socket class.</li>
+													<li>Interpreted the commands for sending the corresponding message and file to the server and then received correct message and file.</li>
+												</td>
+												<td>October, 2014</td>
+												<td><a href="https://github.com/mwkim0919/cs317/tree/master/a1-ftp" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>Y86 Processor Simulator (Java)</td>
+												<td>
+													<li>Made the simulator to interpret Y86 assembly instructions into Y86 machine codes.</li>
+													<li>Added pipeline functionalities with and without data forwarding to Y86 Processor Simulator.</li>
+													<li>Successfully handled all possible data hazards and control hazards.</li>
+												</td>
+												<td>September - October, 2014</td>
+												<td><a href="https://github.com/mwkim0919/cs313/tree/master/a4" class="btn btn-default">Repository</a></td>
+											</tr>
+											<tr>
+												<td>"Waldo" Android Application (Java)</td>
+												<td>
+													<li>Implemented an Android application to track and plot the user and Waldos.</li>
+													<li>Parsed real-time bus information from Translink and implemented the functionality that determines the best bus and route for the user to take to get to an assigned Waldo.</li>
+												</td>
+												<td>November, 2013</td>
+												<td><a href="https://github.com/mwkim0919/cs210" class="btn btn-default">Repository</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									Chemistry Projects
+								</div>
+								<div class="panel-body">
+									<table class="table table-hover">
+										<thead>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Date</th>
+											<th>Link</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>GC/MS Determination of Caffeine in Beverages</td>
+												<td>
+													<li>Designed the experimental procedure for extracting caffeine from beverages such as Coca-Cola, and Red Bull and measuring the level of caffeine contents in each of the beverages using Gas Chromatography and Mass Spectrometry (GC/MS).</li>
+												</td>
+												<td>September, 2012</td>
+												<td><a href="doc/GCMS-REPORT.pdf" class="btn btn-default">Report</a>
+												<a href="doc/GCMS-DATA.pdf" class="btn btn-default">Data</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab" id="personal-project">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<table class="table table-hover">
+								<thead>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Date</th>
+									<th>Link</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Click Me (Java)</td>
+										<td>
+											<li>Built a simple clicking game in which a player's goal is to click a target as many times as possible in a given time of 15 seconds</li>
+											<li>The target re-locates its position whenever a player succeeds to click on it and the game keeps the number of successful clicks</li>
+											<li>The game starts with a starting menu that has Play and Quit options and when the playing time is over, the game state changes so that it shows a score and options to play again or to quit the game</li>
+										</td>
+										<td>August, 2015</td>
+										<td><a href="https://github.com/mwkim0919/clickMe" class="btn btn-default">Repository</a></td>
+									</tr>
+									<tr>
+										<td>Lotto Number Generator (Java)</td>
+										<td>
+											<li>Built a Java application that generates Lotto numbers based on a user's input</li>
+											<li>A user can choose whether to play 6/49 or Lotto Max and whether to play Bonus or not</li>
+											<li>Handled input exceptions by requesting a user to input a valid command</li>
+										</td>
+										<td>July, 2015</td>
+										<td><a href="https://github.com/mwkim0919/Lotto" class="btn btn-default">Repository</a></td>
+									</tr>
+									<tr>
+										<td>All About Vancouver (Python/JavaScript/HTML/CSS)</td>
+										<td>
+											<li>Built a web app that shows the location and information of parks in Vancouver and 7-day weather information of Vancouver</li>
+											<li>Implemented a search function of parks in Vancouver based on the names of the parks or the facilities in the parks</li>
+											<li>Shows the user's current location and direction to a desired park from the current location on Google Map and a direction panel using Google Map API</li>
+										</td>
+										<td>May, 2015</td>
+										<td><a href="https://github.com/mwkim0919/vancouver" class="btn btn-default">Repository</a></td>
+									</tr>
+									<tr>
+										<td>Personal Webpage (HTML/CSS/Javascript)</td>
+										<td>
+											<li>Used Bootstrap to create navigation bar and buttons</li>
+											<li>Used Javascript to implement scrolling functionality and table tab functionality for the webpage.</li>
+											<li>Used CSS and Bootstrap to design the webpage.</li>
+										</td>
+										<td>March, 2015</td>
+										<td>-</td>
+
+									</tr>
+									<tr>
+										<td>CodeAbbey (C/C++/C#/Python)</td>
+										<td>
+											<li>Used a variety of programming languages to solve some of the problems listed in <a href="http://www.codeabbey.com/index/task_list">CodeAbbey</a></li>
+											<li>Select the country as "Canada", and look for my username, "Minwoo Kim" in <a href="http://www.codeabbey.com/index/user_ranking">User Ranking of CodeAbbey</a></li>
+										</td>
+										<td>Febuary, 2015 - Present</td>
+										<td><a href="https://github.com/mwkim0919/CodeAbbey" class="btn btn-default">Repository</a></td>
+									</tr>
+									<tr>
+										<td>Bella Project Game Jam - Jungler (C#)</td>
+										<td>
+											<li>Created a game that would make PEP therapy more interesting for people with Cystic Fibrosis.</li>
+											<li>Used Unity and C# to make a simple side-scrolling mobile game that makes a bird to move up or down according to breath strength of a patient.</li>
+											<li>Worked closely with a team of 4 people for 3 days.</li>
+										</td>
+										<td>October, 2014</td>
+										<td><a href="https://github.com/zuerst/BellaProject" class="btn btn-default">Repository</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- start EXPERIENCE -->
+		<div id="experience">
+			<h1>Experience</h1>
+			<hr></hr>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingZero">
+								<h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#ubc" aria-expanded="false" aria-controls="collapseZero">University of British Columbia - Teaching Assistant</a>
+								</h4>
+						    </div>
+						    <div id="ubc" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingZero">
+								<div class="panel-body">
+									<table class="table table-default">
+										<thead>
+											<th class="col-md-9">Description</th>
+											<th class="col-md-3">Date</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<li><b>Course: CPSC 304 Introduction to Relational Databases</b></li>
+													<li>Helped students to understand the concepts of relational database systems, logical database design, E-R models, formal relational query languages, SQL, functional dependencies, normalization, other commercial languages, and data warehouses</li>
+													<li>Held 3 sections of tutorials twice a week (1 hour for each section)</li>
+												</td>
+												<td>May, 2015 - Jun, 2015</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+						    </div>
+						</div>
+
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#bcit" aria-expanded="false" aria-controls="collapseOne">British Columbia Institution of Technology - Research Assistant</a>
+								</h4>
+						    </div>
+						    <div id="bcit" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+									<table class="table table-default">
+										<thead>
+											<th>Description</th>
+											<th>Date</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<li>Assisting in determining fibre length and lignin content in Arabidopsis thaliana.</li>
+													<li>Pulping Arabidopsis thaliana samples to obtain its fibre and measuring the fibre length.</li>
+													<li>Extracting lignin from Arabidopsis thaliana samples and measuring the percentage of lignin in each sample.</li>
+												</td>
+												<td>May. 2nd, 2011 - Aug. 31st, 2011</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+						    </div>
+						</div>
+						
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#drdc" aria-expanded="false" aria-controls="collapseTwo">Defense Research and Development Canada, BC (Dockyard Laboratory Pacific) - Research Assistant</a>
+								</h4>
+						    </div>
+						    <div id="drdc" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<table class="table table-default">
+										<thead>
+											<th>Description</th>
+											<th>Date</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<li>Assisting in supercapacitor project.</li>
+													<li>Synthesizing conducting polymer-carbon nanotube composites as supercapacitor electrode materials.</li>
+													<li>Characterizing the supercapacitor electrode and the composition of active materials.</li>
+													<li>Writing a report and presenting.</li>
+												</td>
+												<td>Jan. 4th, 2011 - Apr. 28th, 2011</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+						    </div>
+						</div>
+
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingThree">
+								<h4 class="panel-title">
+							        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ups" aria-expanded="false" aria-controls="collapseThree">The United Parcel Service, Vancouver, BC - Sales Associate</a>
+								</h4>
+						    </div>
+						    <div id="ups" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							    <div class="panel-body">
+								<table class="table table-default">
+										<thead>
+											<th>Description</th>
+											<th>Date</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<li>Help customers with shipping process, mailbox inquiries, word processing and photocopying.</li>
+													<li>Ensure customer satisfaction by handling customer complaints and dealing with customer requests in a fast and efficient manner.</li>
+													<li>Work alone on weekends with minimal supervision and manage cash-out duties on closing shifts.</li>
+												</td>
+												<td>Aug. 2009 - Dec. 2010</td>
+											</tr>
+										</tbody>
+									</table>
+							    </div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingFour">
+								<h4 class="panel-title">
+							        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#smk" aria-expanded="false" aria-controls="collapseFour">Sales Master Korea, Korea - Translator</a>
+								</h4>
+						    </div>
+						    <div id="smk" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							    <div class="panel-body">
+								<table class="table table-default">
+										<thead>
+											<th>Description</th>
+											<th>Date</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<li>Translate mystery shopping reports done on various car dealerships from Korean into English.</li>
+													<li>Worked in a team in an efficient manner to make the translation consistent and fluent throughout the report.</li>
+													<li>Used time management skill to finish translating the report in limited time.</li>
+												</td>
+												<td>July 2008 - Present (Part-time)</td>
+											</tr>
+										</tbody>
+									</table>
+							    </div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="gallery">
+			<h1>Gallery</h1>
+			<!-- <hr></hr> -->
+			<div id="gallery-carousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#gallery-carousel" data-slide-to="1"></li>
+					<li data-target="#gallery-carousel" data-slide-to="2"></li>
+					<li data-target="#gallery-carousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<center><div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="css/images/mypic01.jpg" alt="mypic01">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic02.jpg" alt="mypic02">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic03.jpg" alt="mypic03">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="css/images/mypic04.jpg" alt="mypic04">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic05.jpg" alt="mypic05">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic06.jpeg" alt="mypic06">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="css/images/mypic07.jpeg" alt="mypic07">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic08.jpeg" alt="mypic08">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic09.jpeg" alt="mypic09">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="css/images/mypic10.jpg" alt="mypic10">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic11.jpg" alt="mypic11">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img src="css/images/mypic12.jpeg" alt="mypic12">
+								<div class="carousel-caption">
+							    <!-- This is where txt goes in for each image -->
+								</div>
+							</div>
+						</div>
+					</div>
+				    <!-- This is where txt goes in BELOW image -->
+				</div></center>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#gallery-carousel" role="button" data-slide="prev">
+					<strong><span class="icon-prev"></span><strong>
+					<!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+					<!-- <span class="sr-only">Previous</span> -->
+				</a>
+				<a class="right carousel-control" href="#gallery-carousel" role="button" data-slide="next">
+					<strong><span class="icon-next"></span></strong>
+					<!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+					<!-- <span class="sr-only">Next</span> -->
+				</a>
+			</div>
+		</div>
+		
+		<!-- start section -->
+		<div id="contact">
+			<h1>Contact</h1>
+			<hr></hr>
+			<div class="container">
+				<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><br>
+				<p>mwkim89@hotmail.com</p><br>
+				<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span><br>
+				<a href="https://github.com/mwkim0919" class="navbar-btn btn-danger btn">Check my GitHub</a><br>
+				<a href="https://www.facebook.com/minwoo.kim.56" class="btn btn-social-icon btn-facebook">
+				    <img src="css/images/facebook-icon.png" alt="facebook-icon" width="25%" height="25%" id="facebook-icon">
+				</a><br>
+				<p>Facebook</p><br>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+            <span class="copyright">Copyright &copy; Minwoo Kim 2015 | Created using HTML and CSS</span>
+			</div>
+		</div>
+
+		<!-- start footer navigation bar -->
+		<!-- <div id="contact">
+			<h1>CONTACT</h1>
+			<div class="navbar navbar-default navbar-static-bottom">
+				<div class="container">
+					<p class="navbar-text pull-left">Site Built By Minwoo Kim</p>
+					<a href="https://github.com/mwkim0919" class="navbar-btn btn-danger btn pull-right">Check my GitHub</a>
+				</div>
+			</div>
+		</div> -->
+		
+		<!-- start MODAL (POPUP BOXES) -->
+		<div class="modal fade" id="chemistry" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="modal-body">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading">Courses:</div>
+								<div class="panel-body">
+									<table class="table table-hover">
+										<thead>
+											<th>Course #</th>
+											<th>Title</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>CHEM121</td> 
+												<td>Structural Chemistry, with Application to Chemistry of the Elements</td>
+											</tr>
+											<tr>
+												<td>CHEM123</td> 
+												<td>Physical and Organic Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM201</td> 
+												<td>Introduction to Physical Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM202</td> 
+												<td>Coordination Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM203</td> 
+												<td>Organic Chemistry I</td>
+											</tr>
+											<tr>
+												<td>CHEM204</td> 
+												<td>Organic Chemistry II</td>
+											</tr>
+											<tr>
+												<td>CHEM211</td> 
+												<td>Analytical Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM304</td> 
+												<td>Fundamentals of Physical Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM309</td> 
+												<td>Foundations of Inorganic Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM310</td> 
+												<td>Chemistry of the Elements</td>
+											</tr>
+											<tr>
+												<td>CHEM311</td> 
+												<td>Chemistry of the Elements</td>
+											</tr>
+											<tr>
+												<td>CHEM312</td> 
+												<td>Introduction to Quantum Mechanics and Spectroscopy</td>
+											</tr>
+											<tr>
+												<td>CHEM320</td> 
+												<td>Structure of Atoms and Molecules</td>
+											</tr>
+											<tr>
+												<td>CHEM330</td> 
+												<td>Advanced Organic Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM333</td> 
+												<td>Spectroscopic Techniques in Organic Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM406</td> 
+												<td>Polymer Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM411</td> 
+												<td>Chemistry and Synthesis of Natural Products</td>
+											</tr>
+											<tr>
+												<td>CHEM416</td> 
+												<td>Physical and Theoretical Organic Chemistry</td>
+											</tr>
+											<tr>
+												<td>CHEM427</td> 
+												<td>Material Chemistry</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-danger" data-dismiss="modal">CLOSE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="cs" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="modal-body">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading">Courses:</div>
+								<div class="panel-body">
+									<table class="table table-hover">
+										<thead>
+											<th>Course #</th>
+											<th>Title</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>CPSC110</td> 
+												<td>Computation, Programs, and Programming</td>
+											</tr>
+											<tr>
+												<td>CPSC121</td> 
+												<td>Models of Computation</td>
+											</tr>
+											<tr>
+												<td>CPSC210</td> 
+												<td>Software Construction</td>
+											</tr>
+											<tr>
+												<td>CPSC213</td> 
+												<td>Introduction to Computer Structures</td>
+											</tr>
+											<tr>
+												<td>CPSC221</td> 
+												<td>Basic Algorithms and Data Structures</td>
+											</tr>
+											<tr>
+												<td>CPSC302</td> 
+												<td>Numerical Computation for Algebraic Problems</td>
+											</tr>
+											<tr>
+												<td>CPSC304</td> 
+												<td>Introduction to Relational Databases</td>
+											</tr>
+											<tr>
+												<td>CPSC310</td>
+												<td>Introduction to Software Engineering</td>
+											</tr>
+											<tr>
+												<td>CPSC311</td> 
+												<td>Definition of Programming Languages</td>
+											</tr>
+											<tr>
+												<td>CPSC313</td> 
+												<td>Computer Hardware and Operating Systems</td>
+											</tr>
+											<tr>
+												<td>CPSC314</td>
+												<td>Computer Graphics</td>
+											</tr>
+											<tr>
+												<td>CPSC317</td> 
+												<td>Internet Computing</td>
+											</tr>
+											<tr>
+												<td>CPSC320</td> 
+												<td>Intermediate Algorithm Design and Analysis</td>
+											</tr>
+											<tr>
+												<td>CPSC322</td> 
+												<td>Introduction to Artificial Intelligence</td>
+											</tr>
+											<tr>
+												<td>CPSC420</td>
+												<td>Advanced Algorithms Design and Analysis</td>
+											</tr>
+											<tr>
+												<td>CPSC425</td>
+												<td>Computer Vision</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-danger" data-dismiss="modal">CLOSE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+		<script src="js/bootstrap.js"></script>
+
+	</body>
+</html>

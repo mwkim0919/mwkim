@@ -1,0 +1,195 @@
+body {
+	/*margin-bottom: 80px;*/
+}
+
+hr {
+	color: silver;
+	border-top: 1.5px solid
+}
+
+#nav-list a {
+	/*color: silver;*/
+	font-size: 90%;
+}
+
+#home {
+	background: url(images/keyboard.jpg) no-repeat center center scroll;
+	padding-bottom: 500px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+#home h4 {
+	color: white;
+	margin-top: 80px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#about {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: gray;
+}
+
+#about p {
+	font-size: 120%;
+}
+
+#education {
+	background: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: silver;
+	text-align: center;
+}
+
+#education td {
+	font-size: 14px;
+}
+
+#education img {
+	height: 220px;
+	width: 220px;
+}
+
+#project {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: DimGray;
+	/*text-align: center;*/
+}
+
+#project h1 {
+	text-align: center;
+}
+
+#experience {
+	background: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: silver;
+}
+
+#experience h1{
+	text-align: center;
+}
+
+#experience .panel {
+	margin: 10px;
+}
+
+#experience .panel-heading {
+	background-color: gray;
+	text-align: center;
+	color: white;
+}
+
+#experience .panel-heading a {
+	display: block;
+}
+
+#experience .panel-heading:hover {
+	background-color: Tomato;
+}
+
+#experience .panel-body {
+	color: DimGray;
+}
+
+#gallery {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*background-color: gray;*/
+	color: gray;
+}
+
+#gallery h1 {
+	text-align: center;
+}
+
+#gallery img {
+	position: relative;
+    float: center;
+    width:  450px;
+    height: 450px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+#gallery .icon-prev {
+	color: Gold;
+}
+
+#gallery .icon-next {
+	color: Gold;
+}
+
+#contact {
+	padding-top: 40px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: black;
+	color: silver;
+}
+
+.glyphicon {
+	font-size: 5em;
+	/*background-color: gray;*/
+}
+
+#facebook-icon {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+#footer {
+	background-color: black;
+	color: DimGray;
+	text-align: center;
+}
+
+.table-condensed {
+	font-size: 150%;
+}
+
+.tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.tabs li {
+	display: inline-block;
+}
+
+.tabs a {
+	background: gray;
+	border-radius: 3px 3px 0 0;
+	color: white;
+	display: block;
+	padding: 0.5em 1em;
+}
+
+.tabs a:hover {
+	background: Tomato;
+}
+
+.tabs a.current {
+	background: white;
+	color: black;
+}
+
+.tab {
+	background: White;
+	padding: 1em;
+}
+
+.section h1 {
+	color: White;
+}
