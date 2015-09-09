@@ -1,4 +1,4 @@
 # mwkim
 My Personal Website
 
-[Visit My Website!](mwkim.net76.net)
+[Visit My Website!](http://mwkim.net76.net/)
